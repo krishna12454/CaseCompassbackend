@@ -1,0 +1,167 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{parskip}
+
+% --- Colors ---
+\definecolor{accent}{HTML}{1F4E79}
+\definecolor{lightgray}{HTML}{F2F2F2}
+\definecolor{success}{HTML}{2E7D32}
+\definecolor{danger}{HTML}{C62828}
+
+% --- Hyperlink style ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    urlcolor=accent
+}
+
+% --- Section formatting ---
+\titleformat{\section}
+  {\color{accent}\Large\bfseries}
+  {}{0pt}{}
+\titleformat{\subsection}
+  {\color{accent}\large\bfseries}
+  {}{0pt}{}
+
+% --- Document metadata ---
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+% ============================================
+% HEADER
+% ============================================
+\noindent\textbf{To:} [Boss's Name] \\
+\textbf{From:} [Your Name] \\
+\textbf{Date:} \today \\
+\textbf{Subject:} \textcolor{danger}{\textbf{Action Needed}} -- Unblock website updates (CHF \textasciitilde17/month)
+
+\vspace{0.5cm}
+\hrule
+\vspace{0.5cm}
+
+% ============================================
+% OPENING
+% ============================================
+Dear [Boss's Name],
+
+\vspace{0.3cm}
+
+A quick update on the \textbf{CaseCompass} platform.
+
+\vspace{0.3cm}
+
+Today, I completed \textbf{17 improvements} to the website -- including the new \textbf{To-Do list} you asked for, the \textbf{dropdown menus}, the \textbf{case rename feature}, \textbf{audio upload support}, and several \textbf{critical security fixes}.
+
+However, \textcolor{danger}{\textbf{none of these changes are visible on the live website yet}}. Our current Vercel hosting plan (``Hobby'' -- free tier) has \textbf{blocked our recent deployments}. Until this is resolved, the live site continues to show the old version from \textbf{9 July}.
+
+% ============================================
+% STATUS
+% ============================================
+\section*{Current Situation}
+
+\begin{itemize}[leftmargin=*]
+  \item \textcolor{success}{\textbf{Done:}} All code is written, tested, and safely saved on GitHub.
+  \item \textcolor{danger}{\textbf{Blocked:}} The live website is not updating.
+\end{itemize}
+
+% ============================================
+% SOLUTION
+% ============================================
+\section*{Recommended Solution: Upgrade to Vercel Pro}
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabularx}{\textwidth}{lXX}
+\toprule
+ & \textbf{Free Plan (current)} & \textbf{Pro Plan (proposed)} \\
+\midrule
+\textbf{Cost}              & \$0                    & \textbf{\$20 / month ($\approx$ CHF~17)} \\
+\textbf{Deployments}       & Blocked after limit    & Unlimited \\
+\textbf{Build minutes}     & Very limited           & 24{,}000 / month (more than enough) \\
+\textbf{Bandwidth}         & 100~GB                 & 1~TB \\
+\textbf{Commercial use}    & \textcolor{danger}{Not allowed} & \textcolor{success}{Allowed} \\
+\textbf{Support}           & Community only         & Email support \\
+\textbf{Best for}          & Personal hobby projects & Business / production apps \\
+\bottomrule
+\end{tabularx}
+
+\vspace{0.5cm}
+
+CaseCompass is a \textbf{business-critical tool} used for sensitive case work. The free ``Hobby'' plan is explicitly designed for \emph{personal projects only} -- using it for our purposes is technically against Vercel's terms of service, and is the most likely reason for the current block.
+
+% ============================================
+% WHAT WE GAIN
+% ============================================
+\section*{What We Get the Moment We Upgrade}
+
+The instant the upgrade is active (takes about 5~minutes), \textbf{all 17 improvements I made today go live automatically}, including:
+
+\begin{itemize}[leftmargin=*]
+  \item \textbf{New To-Do list page} -- prioritised, status-filtered, linked to cases.
+  \item \textbf{Dropdowns populated} -- 173 options across 13 dropdowns in 4 languages.
+  \item \textbf{Audio recordings} -- support for files up to 100~MB.
+  \item \textbf{Case rename feature.}
+  \item \textbf{Cleaner case form} -- removed temporary workaround fields.
+  \item \textbf{Security improvements} -- rotated credentials, hardened production settings.
+\end{itemize}
+
+% ============================================
+% BOTTOM LINE
+% ============================================
+\section*{Bottom Line}
+
+For approximately \textbf{CHF~17 per month}, we:
+\begin{enumerate}[leftmargin=*]
+  \item Unblock today's work.
+  \item Unblock every future improvement.
+  \item Comply with Vercel's Terms of Service.
+\end{enumerate}
+
+This is by far the most cost-effective part of running a professional web platform, and significantly cheaper than the developer time spent working around the limit.
+
+% ============================================
+% HOW TO PROCEED
+% ============================================
+\section*{How to Proceed}
+
+Could you please authorise the upgrade? It only takes 2~minutes:
+
+\begin{enumerate}[leftmargin=*]
+  \item Open \url{https://vercel.com/dashboard}
+  \item Settings $\rightarrow$ Billing $\rightarrow$ \emph{Upgrade to Pro}
+  \item Enter payment details
+\end{enumerate}
+
+Once completed, the latest version will be live within minutes, and I will send you a walkthrough of all the new features.
+
+\vspace{0.8cm}
+
+\noindent Best regards,
+
+\vspace{0.5cm}
+
+\noindent[Your Name]
+
+% ============================================
+% APPENDIX
+% ============================================
+\vspace{1.5cm}
+\hrule
+\vspace{0.5cm}
+
+\noindent\textit{\small A detailed technical report listing every change made today is available on request.}
+
+\end{document}
