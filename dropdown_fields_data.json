@@ -1,0 +1,2078 @@
+[
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 100,
+    "fields": {
+      "dropdownMenuId": 1,
+      "parentFieldId": null,
+      "nameEn": "Phone call",
+      "nameDe": "Telefonanruf",
+      "nameFr": "Appel téléphonique",
+      "nameIt": "Telefonata"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 101,
+    "fields": {
+      "dropdownMenuId": 1,
+      "parentFieldId": null,
+      "nameEn": "Email",
+      "nameDe": "E-Mail",
+      "nameFr": "E-mail",
+      "nameIt": "Email"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 102,
+    "fields": {
+      "dropdownMenuId": 1,
+      "parentFieldId": null,
+      "nameEn": "In-person meeting",
+      "nameDe": "Persönliches Gespräch",
+      "nameFr": "Rencontre en personne",
+      "nameIt": "Incontro di persona"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 103,
+    "fields": {
+      "dropdownMenuId": 1,
+      "parentFieldId": null,
+      "nameEn": "Video call",
+      "nameDe": "Videoanruf",
+      "nameFr": "Appel vidéo",
+      "nameIt": "Videochiamata"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 104,
+    "fields": {
+      "dropdownMenuId": 1,
+      "parentFieldId": null,
+      "nameEn": "Letter",
+      "nameDe": "Brief",
+      "nameFr": "Lettre",
+      "nameIt": "Lettera"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 105,
+    "fields": {
+      "dropdownMenuId": 1,
+      "parentFieldId": null,
+      "nameEn": "SMS / Chat",
+      "nameDe": "SMS / Chat",
+      "nameFr": "SMS / Chat",
+      "nameIt": "SMS / Chat"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 106,
+    "fields": {
+      "dropdownMenuId": 1,
+      "parentFieldId": null,
+      "nameEn": "Internal note",
+      "nameDe": "Interne Notiz",
+      "nameFr": "Note interne",
+      "nameIt": "Nota interna"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 107,
+    "fields": {
+      "dropdownMenuId": 1,
+      "parentFieldId": null,
+      "nameEn": "Other",
+      "nameDe": "Andere",
+      "nameFr": "Autre",
+      "nameIt": "Altro"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 108,
+    "fields": {
+      "dropdownMenuId": 2,
+      "parentFieldId": null,
+      "nameEn": "Open",
+      "nameDe": "Offen",
+      "nameFr": "Ouvert",
+      "nameIt": "Aperto"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 109,
+    "fields": {
+      "dropdownMenuId": 2,
+      "parentFieldId": null,
+      "nameEn": "In progress",
+      "nameDe": "In Bearbeitung",
+      "nameFr": "En cours",
+      "nameIt": "In corso"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 110,
+    "fields": {
+      "dropdownMenuId": 2,
+      "parentFieldId": null,
+      "nameEn": "On hold",
+      "nameDe": "Pausiert",
+      "nameFr": "En attente",
+      "nameIt": "In sospeso"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 111,
+    "fields": {
+      "dropdownMenuId": 2,
+      "parentFieldId": null,
+      "nameEn": "Closed",
+      "nameDe": "Geschlossen",
+      "nameFr": "Fermé",
+      "nameIt": "Chiuso"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 112,
+    "fields": {
+      "dropdownMenuId": 2,
+      "parentFieldId": null,
+      "nameEn": "Archived",
+      "nameDe": "Archiviert",
+      "nameFr": "Archivé",
+      "nameIt": "Archiviato"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 113,
+    "fields": {
+      "dropdownMenuId": 3,
+      "parentFieldId": null,
+      "nameEn": "Self",
+      "nameDe": "Selbst",
+      "nameFr": "Soi-même",
+      "nameIt": "Sé stesso"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 114,
+    "fields": {
+      "dropdownMenuId": 3,
+      "parentFieldId": null,
+      "nameEn": "Family member",
+      "nameDe": "Familienmitglied",
+      "nameFr": "Membre de la famille",
+      "nameIt": "Familiare"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 115,
+    "fields": {
+      "dropdownMenuId": 3,
+      "parentFieldId": null,
+      "nameEn": "Friend / acquaintance",
+      "nameDe": "Freund/in / Bekannte/r",
+      "nameFr": "Ami(e) / connaissance",
+      "nameIt": "Amico/a / conoscente"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 116,
+    "fields": {
+      "dropdownMenuId": 3,
+      "parentFieldId": null,
+      "nameEn": "Professional (social services)",
+      "nameDe": "Fachperson (Sozialdienst)",
+      "nameFr": "Professionnel(le) (services sociaux)",
+      "nameIt": "Professionista (servizi sociali)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 117,
+    "fields": {
+      "dropdownMenuId": 3,
+      "parentFieldId": null,
+      "nameEn": "Professional (school)",
+      "nameDe": "Fachperson (Schule)",
+      "nameFr": "Professionnel(le) (école)",
+      "nameIt": "Professionista (scuola)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 118,
+    "fields": {
+      "dropdownMenuId": 3,
+      "parentFieldId": null,
+      "nameEn": "Professional (healthcare)",
+      "nameDe": "Fachperson (Gesundheitswesen)",
+      "nameFr": "Professionnel(le) (santé)",
+      "nameIt": "Professionista (sanità)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 119,
+    "fields": {
+      "dropdownMenuId": 3,
+      "parentFieldId": null,
+      "nameEn": "Police / authority",
+      "nameDe": "Polizei / Behörde",
+      "nameFr": "Police / autorité",
+      "nameIt": "Polizia / autorità"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 120,
+    "fields": {
+      "dropdownMenuId": 3,
+      "parentFieldId": null,
+      "nameEn": "Anonymous",
+      "nameDe": "Anonym",
+      "nameFr": "Anonyme",
+      "nameIt": "Anonimo"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 121,
+    "fields": {
+      "dropdownMenuId": 3,
+      "parentFieldId": null,
+      "nameEn": "Other",
+      "nameDe": "Andere",
+      "nameFr": "Autre",
+      "nameIt": "Altro"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 122,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Aargau (AG)",
+      "nameDe": "Aargau (AG)",
+      "nameFr": "Argovie (AG)",
+      "nameIt": "Argovia (AG)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 123,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Appenzell Ausserrhoden (AR)",
+      "nameDe": "Appenzell Ausserrhoden (AR)",
+      "nameFr": "Appenzell Rhodes-Extérieures (AR)",
+      "nameIt": "Appenzello Esterno (AR)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 124,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Appenzell Innerrhoden (AI)",
+      "nameDe": "Appenzell Innerrhoden (AI)",
+      "nameFr": "Appenzell Rhodes-Intérieures (AI)",
+      "nameIt": "Appenzello Interno (AI)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 125,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Basel-Landschaft (BL)",
+      "nameDe": "Basel-Landschaft (BL)",
+      "nameFr": "Bâle-Campagne (BL)",
+      "nameIt": "Basilea Campagna (BL)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 126,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Basel-Stadt (BS)",
+      "nameDe": "Basel-Stadt (BS)",
+      "nameFr": "Bâle-Ville (BS)",
+      "nameIt": "Basilea Città (BS)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 127,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Bern (BE)",
+      "nameDe": "Bern (BE)",
+      "nameFr": "Berne (BE)",
+      "nameIt": "Berna (BE)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 128,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Fribourg (FR)",
+      "nameDe": "Freiburg (FR)",
+      "nameFr": "Fribourg (FR)",
+      "nameIt": "Friburgo (FR)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 129,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Geneva (GE)",
+      "nameDe": "Genf (GE)",
+      "nameFr": "Genève (GE)",
+      "nameIt": "Ginevra (GE)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 130,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Glarus (GL)",
+      "nameDe": "Glarus (GL)",
+      "nameFr": "Glaris (GL)",
+      "nameIt": "Glarona (GL)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 131,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Graubünden (GR)",
+      "nameDe": "Graubünden (GR)",
+      "nameFr": "Grisons (GR)",
+      "nameIt": "Grigioni (GR)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 132,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Jura (JU)",
+      "nameDe": "Jura (JU)",
+      "nameFr": "Jura (JU)",
+      "nameIt": "Giura (JU)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 133,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Lucerne (LU)",
+      "nameDe": "Luzern (LU)",
+      "nameFr": "Lucerne (LU)",
+      "nameIt": "Lucerna (LU)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 134,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Neuchâtel (NE)",
+      "nameDe": "Neuenburg (NE)",
+      "nameFr": "Neuchâtel (NE)",
+      "nameIt": "Neuchâtel (NE)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 135,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Nidwalden (NW)",
+      "nameDe": "Nidwalden (NW)",
+      "nameFr": "Nidwald (NW)",
+      "nameIt": "Nidvaldo (NW)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 136,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Obwalden (OW)",
+      "nameDe": "Obwalden (OW)",
+      "nameFr": "Obwald (OW)",
+      "nameIt": "Obvaldo (OW)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 137,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Schaffhausen (SH)",
+      "nameDe": "Schaffhausen (SH)",
+      "nameFr": "Schaffhouse (SH)",
+      "nameIt": "Sciaffusa (SH)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 138,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Schwyz (SZ)",
+      "nameDe": "Schwyz (SZ)",
+      "nameFr": "Schwytz (SZ)",
+      "nameIt": "Svitto (SZ)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 139,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Solothurn (SO)",
+      "nameDe": "Solothurn (SO)",
+      "nameFr": "Soleure (SO)",
+      "nameIt": "Soletta (SO)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 140,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "St. Gallen (SG)",
+      "nameDe": "St. Gallen (SG)",
+      "nameFr": "Saint-Gall (SG)",
+      "nameIt": "San Gallo (SG)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 141,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Thurgau (TG)",
+      "nameDe": "Thurgau (TG)",
+      "nameFr": "Thurgovie (TG)",
+      "nameIt": "Turgovia (TG)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 142,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Ticino (TI)",
+      "nameDe": "Tessin (TI)",
+      "nameFr": "Tessin (TI)",
+      "nameIt": "Ticino (TI)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 143,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Uri (UR)",
+      "nameDe": "Uri (UR)",
+      "nameFr": "Uri (UR)",
+      "nameIt": "Uri (UR)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 144,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Valais (VS)",
+      "nameDe": "Wallis (VS)",
+      "nameFr": "Valais (VS)",
+      "nameIt": "Vallese (VS)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 145,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Vaud (VD)",
+      "nameDe": "Waadt (VD)",
+      "nameFr": "Vaud (VD)",
+      "nameIt": "Vaud (VD)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 146,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Zug (ZG)",
+      "nameDe": "Zug (ZG)",
+      "nameFr": "Zoug (ZG)",
+      "nameIt": "Zugo (ZG)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 147,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Zurich (ZH)",
+      "nameDe": "Zürich (ZH)",
+      "nameFr": "Zurich (ZH)",
+      "nameIt": "Zurigo (ZH)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 148,
+    "fields": {
+      "dropdownMenuId": 4,
+      "parentFieldId": null,
+      "nameEn": "Other / Abroad",
+      "nameDe": "Andere / Ausland",
+      "nameFr": "Autre / Étranger",
+      "nameIt": "Altro / Estero"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 149,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Switzerland",
+      "nameDe": "Schweiz",
+      "nameFr": "Suisse",
+      "nameIt": "Svizzera"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 150,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Germany",
+      "nameDe": "Deutschland",
+      "nameFr": "Allemagne",
+      "nameIt": "Germania"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 151,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Italy",
+      "nameDe": "Italien",
+      "nameFr": "Italie",
+      "nameIt": "Italia"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 152,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "France",
+      "nameDe": "Frankreich",
+      "nameFr": "France",
+      "nameIt": "Francia"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 153,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Austria",
+      "nameDe": "Österreich",
+      "nameFr": "Autriche",
+      "nameIt": "Austria"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 154,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Portugal",
+      "nameDe": "Portugal",
+      "nameFr": "Portugal",
+      "nameIt": "Portogallo"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 155,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Spain",
+      "nameDe": "Spanien",
+      "nameFr": "Espagne",
+      "nameIt": "Spagna"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 156,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Turkey",
+      "nameDe": "Türkei",
+      "nameFr": "Turquie",
+      "nameIt": "Turchia"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 157,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Albania",
+      "nameDe": "Albanien",
+      "nameFr": "Albanie",
+      "nameIt": "Albania"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 158,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Kosovo",
+      "nameDe": "Kosovo",
+      "nameFr": "Kosovo",
+      "nameIt": "Kosovo"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 159,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Serbia",
+      "nameDe": "Serbien",
+      "nameFr": "Serbie",
+      "nameIt": "Serbia"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 160,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Bosnia and Herzegovina",
+      "nameDe": "Bosnien und Herzegowina",
+      "nameFr": "Bosnie-Herzégovine",
+      "nameIt": "Bosnia ed Erzegovina"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 161,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "North Macedonia",
+      "nameDe": "Nordmazedonien",
+      "nameFr": "Macédoine du Nord",
+      "nameIt": "Macedonia del Nord"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 162,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Croatia",
+      "nameDe": "Kroatien",
+      "nameFr": "Croatie",
+      "nameIt": "Croazia"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 163,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Bulgaria",
+      "nameDe": "Bulgarien",
+      "nameFr": "Bulgarie",
+      "nameIt": "Bulgaria"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 164,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Romania",
+      "nameDe": "Rumänien",
+      "nameFr": "Roumanie",
+      "nameIt": "Romania"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 165,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Russia",
+      "nameDe": "Russland",
+      "nameFr": "Russie",
+      "nameIt": "Russia"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 166,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Ukraine",
+      "nameDe": "Ukraine",
+      "nameFr": "Ukraine",
+      "nameIt": "Ucraina"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 167,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Syria",
+      "nameDe": "Syrien",
+      "nameFr": "Syrie",
+      "nameIt": "Siria"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 168,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Iraq",
+      "nameDe": "Irak",
+      "nameFr": "Irak",
+      "nameIt": "Iraq"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 169,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Iran",
+      "nameDe": "Iran",
+      "nameFr": "Iran",
+      "nameIt": "Iran"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 170,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Afghanistan",
+      "nameDe": "Afghanistan",
+      "nameFr": "Afghanistan",
+      "nameIt": "Afghanistan"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 171,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Pakistan",
+      "nameDe": "Pakistan",
+      "nameFr": "Pakistan",
+      "nameIt": "Pakistan"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 172,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "India",
+      "nameDe": "Indien",
+      "nameFr": "Inde",
+      "nameIt": "India"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 173,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Sri Lanka",
+      "nameDe": "Sri Lanka",
+      "nameFr": "Sri Lanka",
+      "nameIt": "Sri Lanka"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 174,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Bangladesh",
+      "nameDe": "Bangladesch",
+      "nameFr": "Bangladesh",
+      "nameIt": "Bangladesh"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 175,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Lebanon",
+      "nameDe": "Libanon",
+      "nameFr": "Liban",
+      "nameIt": "Libano"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 176,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Saudi Arabia",
+      "nameDe": "Saudi-Arabien",
+      "nameFr": "Arabie saoudite",
+      "nameIt": "Arabia Saudita"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 177,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Yemen",
+      "nameDe": "Jemen",
+      "nameFr": "Yémen",
+      "nameIt": "Yemen"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 178,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Egypt",
+      "nameDe": "Ägypten",
+      "nameFr": "Égypte",
+      "nameIt": "Egitto"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 179,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Morocco",
+      "nameDe": "Marokko",
+      "nameFr": "Maroc",
+      "nameIt": "Marocco"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 180,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Tunisia",
+      "nameDe": "Tunesien",
+      "nameFr": "Tunisie",
+      "nameIt": "Tunisia"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 181,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Algeria",
+      "nameDe": "Algerien",
+      "nameFr": "Algérie",
+      "nameIt": "Algeria"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 182,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Eritrea",
+      "nameDe": "Eritrea",
+      "nameFr": "Érythrée",
+      "nameIt": "Eritrea"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 183,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Somalia",
+      "nameDe": "Somalia",
+      "nameFr": "Somalie",
+      "nameIt": "Somalia"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 184,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Ethiopia",
+      "nameDe": "Äthiopien",
+      "nameFr": "Éthiopie",
+      "nameIt": "Etiopia"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 185,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Sudan",
+      "nameDe": "Sudan",
+      "nameFr": "Soudan",
+      "nameIt": "Sudan"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 186,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Nigeria",
+      "nameDe": "Nigeria",
+      "nameFr": "Nigéria",
+      "nameIt": "Nigeria"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 187,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "China",
+      "nameDe": "China",
+      "nameFr": "Chine",
+      "nameIt": "Cina"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 188,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Philippines",
+      "nameDe": "Philippinen",
+      "nameFr": "Philippines",
+      "nameIt": "Filippine"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 189,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Thailand",
+      "nameDe": "Thailand",
+      "nameFr": "Thaïlande",
+      "nameIt": "Thailandia"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 190,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Vietnam",
+      "nameDe": "Vietnam",
+      "nameFr": "Vietnam",
+      "nameIt": "Vietnam"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 191,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Brazil",
+      "nameDe": "Brasilien",
+      "nameFr": "Brésil",
+      "nameIt": "Brasile"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 192,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "USA",
+      "nameDe": "USA",
+      "nameFr": "États-Unis",
+      "nameIt": "Stati Uniti"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 193,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Other",
+      "nameDe": "Andere",
+      "nameFr": "Autre",
+      "nameIt": "Altro"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 194,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Stateless",
+      "nameDe": "Staatenlos",
+      "nameFr": "Apatride",
+      "nameIt": "Apolide"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 195,
+    "fields": {
+      "dropdownMenuId": 5,
+      "parentFieldId": null,
+      "nameEn": "Unknown",
+      "nameDe": "Unbekannt",
+      "nameFr": "Inconnu",
+      "nameIt": "Sconosciuto"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 196,
+    "fields": {
+      "dropdownMenuId": 6,
+      "parentFieldId": null,
+      "nameEn": "Single",
+      "nameDe": "Ledig",
+      "nameFr": "Célibataire",
+      "nameIt": "Celibe/Nubile"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 197,
+    "fields": {
+      "dropdownMenuId": 6,
+      "parentFieldId": null,
+      "nameEn": "Married",
+      "nameDe": "Verheiratet",
+      "nameFr": "Marié(e)",
+      "nameIt": "Sposato/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 198,
+    "fields": {
+      "dropdownMenuId": 6,
+      "parentFieldId": null,
+      "nameEn": "Religiously married only",
+      "nameDe": "Nur religiös verheiratet",
+      "nameFr": "Marié(e) religieusement uniquement",
+      "nameIt": "Sposato/a solo religiosamente"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 199,
+    "fields": {
+      "dropdownMenuId": 6,
+      "parentFieldId": null,
+      "nameEn": "Registered partnership",
+      "nameDe": "Eingetragene Partnerschaft",
+      "nameFr": "Partenariat enregistré",
+      "nameIt": "Unione civile"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 200,
+    "fields": {
+      "dropdownMenuId": 6,
+      "parentFieldId": null,
+      "nameEn": "Separated",
+      "nameDe": "Getrennt",
+      "nameFr": "Séparé(e)",
+      "nameIt": "Separato/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 201,
+    "fields": {
+      "dropdownMenuId": 6,
+      "parentFieldId": null,
+      "nameEn": "Divorced",
+      "nameDe": "Geschieden",
+      "nameFr": "Divorcé(e)",
+      "nameIt": "Divorziato/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 202,
+    "fields": {
+      "dropdownMenuId": 6,
+      "parentFieldId": null,
+      "nameEn": "Widowed",
+      "nameDe": "Verwitwet",
+      "nameFr": "Veuf/Veuve",
+      "nameIt": "Vedovo/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 203,
+    "fields": {
+      "dropdownMenuId": 6,
+      "parentFieldId": null,
+      "nameEn": "Engaged",
+      "nameDe": "Verlobt",
+      "nameFr": "Fiancé(e)",
+      "nameIt": "Fidanzato/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 204,
+    "fields": {
+      "dropdownMenuId": 6,
+      "parentFieldId": null,
+      "nameEn": "Unknown",
+      "nameDe": "Unbekannt",
+      "nameFr": "Inconnu",
+      "nameIt": "Sconosciuto"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 205,
+    "fields": {
+      "dropdownMenuId": 7,
+      "parentFieldId": null,
+      "nameEn": "Female",
+      "nameDe": "Weiblich",
+      "nameFr": "Féminin",
+      "nameIt": "Femminile"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 206,
+    "fields": {
+      "dropdownMenuId": 7,
+      "parentFieldId": null,
+      "nameEn": "Male",
+      "nameDe": "Männlich",
+      "nameFr": "Masculin",
+      "nameIt": "Maschile"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 207,
+    "fields": {
+      "dropdownMenuId": 7,
+      "parentFieldId": null,
+      "nameEn": "Non-binary",
+      "nameDe": "Nicht-binär",
+      "nameFr": "Non binaire",
+      "nameIt": "Non binario"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 208,
+    "fields": {
+      "dropdownMenuId": 7,
+      "parentFieldId": null,
+      "nameEn": "Other",
+      "nameDe": "Andere",
+      "nameFr": "Autre",
+      "nameIt": "Altro"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 209,
+    "fields": {
+      "dropdownMenuId": 7,
+      "parentFieldId": null,
+      "nameEn": "Prefer not to say",
+      "nameDe": "Keine Angabe",
+      "nameFr": "Ne souhaite pas répondre",
+      "nameIt": "Preferisco non rispondere"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 210,
+    "fields": {
+      "dropdownMenuId": 8,
+      "parentFieldId": null,
+      "nameEn": "Swiss citizen",
+      "nameDe": "Schweizer Bürger/in",
+      "nameFr": "Citoyen(ne) suisse",
+      "nameIt": "Cittadino/a svizzero/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 211,
+    "fields": {
+      "dropdownMenuId": 8,
+      "parentFieldId": null,
+      "nameEn": "Permit C (settlement)",
+      "nameDe": "Bewilligung C (Niederlassung)",
+      "nameFr": "Permis C (établissement)",
+      "nameIt": "Permesso C (domicilio)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 212,
+    "fields": {
+      "dropdownMenuId": 8,
+      "parentFieldId": null,
+      "nameEn": "Permit B (residence)",
+      "nameDe": "Bewilligung B (Aufenthalt)",
+      "nameFr": "Permis B (séjour)",
+      "nameIt": "Permesso B (dimora)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 213,
+    "fields": {
+      "dropdownMenuId": 8,
+      "parentFieldId": null,
+      "nameEn": "Permit L (short-term)",
+      "nameDe": "Bewilligung L (Kurzaufenthalt)",
+      "nameFr": "Permis L (courte durée)",
+      "nameIt": "Permesso L (breve durata)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 214,
+    "fields": {
+      "dropdownMenuId": 8,
+      "parentFieldId": null,
+      "nameEn": "Permit F (provisionally admitted)",
+      "nameDe": "Bewilligung F (vorläufig aufgenommen)",
+      "nameFr": "Permis F (admis(e) provisoirement)",
+      "nameIt": "Permesso F (ammesso/a provvisoriamente)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 215,
+    "fields": {
+      "dropdownMenuId": 8,
+      "parentFieldId": null,
+      "nameEn": "Permit N (asylum seeker)",
+      "nameDe": "Bewilligung N (Asylsuchende/r)",
+      "nameFr": "Permis N (requérant(e) d'asile)",
+      "nameIt": "Permesso N (richiedente asilo)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 216,
+    "fields": {
+      "dropdownMenuId": 8,
+      "parentFieldId": null,
+      "nameEn": "Permit S (protection)",
+      "nameDe": "Bewilligung S (Schutzstatus)",
+      "nameFr": "Permis S (statut de protection)",
+      "nameIt": "Permesso S (statuto di protezione)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 217,
+    "fields": {
+      "dropdownMenuId": 8,
+      "parentFieldId": null,
+      "nameEn": "Permit Ci (family of diplomat)",
+      "nameDe": "Bewilligung Ci (Diplomatenangehörige/r)",
+      "nameFr": "Permis Ci (famille de diplomate)",
+      "nameIt": "Permesso Ci (famiglia di diplomatico)"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 218,
+    "fields": {
+      "dropdownMenuId": 8,
+      "parentFieldId": null,
+      "nameEn": "Tourist visa",
+      "nameDe": "Touristenvisum",
+      "nameFr": "Visa touristique",
+      "nameIt": "Visto turistico"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 219,
+    "fields": {
+      "dropdownMenuId": 8,
+      "parentFieldId": null,
+      "nameEn": "No legal status",
+      "nameDe": "Kein Aufenthaltsstatus",
+      "nameFr": "Sans statut légal",
+      "nameIt": "Senza status legale"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 220,
+    "fields": {
+      "dropdownMenuId": 8,
+      "parentFieldId": null,
+      "nameEn": "Unknown",
+      "nameDe": "Unbekannt",
+      "nameFr": "Inconnu",
+      "nameIt": "Sconosciuto"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 221,
+    "fields": {
+      "dropdownMenuId": 9,
+      "parentFieldId": null,
+      "nameEn": "European",
+      "nameDe": "Europäisch",
+      "nameFr": "Européen(ne)",
+      "nameIt": "Europeo/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 222,
+    "fields": {
+      "dropdownMenuId": 9,
+      "parentFieldId": null,
+      "nameEn": "Middle Eastern / Arab",
+      "nameDe": "Nahöstlich / Arabisch",
+      "nameFr": "Moyen-Oriental(e) / Arabe",
+      "nameIt": "Mediorientale / Arabo/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 223,
+    "fields": {
+      "dropdownMenuId": 9,
+      "parentFieldId": null,
+      "nameEn": "Kurdish",
+      "nameDe": "Kurdisch",
+      "nameFr": "Kurde",
+      "nameIt": "Curdo/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 224,
+    "fields": {
+      "dropdownMenuId": 9,
+      "parentFieldId": null,
+      "nameEn": "Turkish",
+      "nameDe": "Türkisch",
+      "nameFr": "Turc(que)",
+      "nameIt": "Turco/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 225,
+    "fields": {
+      "dropdownMenuId": 9,
+      "parentFieldId": null,
+      "nameEn": "Albanian",
+      "nameDe": "Albanisch",
+      "nameFr": "Albanais(e)",
+      "nameIt": "Albanese"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 226,
+    "fields": {
+      "dropdownMenuId": 9,
+      "parentFieldId": null,
+      "nameEn": "Roma / Sinti",
+      "nameDe": "Roma / Sinti",
+      "nameFr": "Roms / Sintis",
+      "nameIt": "Rom / Sinti"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 227,
+    "fields": {
+      "dropdownMenuId": 9,
+      "parentFieldId": null,
+      "nameEn": "South Asian",
+      "nameDe": "Südasiatisch",
+      "nameFr": "Sud-asiatique",
+      "nameIt": "Sud-asiatico/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 228,
+    "fields": {
+      "dropdownMenuId": 9,
+      "parentFieldId": null,
+      "nameEn": "East Asian",
+      "nameDe": "Ostasiatisch",
+      "nameFr": "Est-asiatique",
+      "nameIt": "Est-asiatico/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 229,
+    "fields": {
+      "dropdownMenuId": 9,
+      "parentFieldId": null,
+      "nameEn": "Sub-Saharan African",
+      "nameDe": "Subsahara-afrikanisch",
+      "nameFr": "Afrique subsaharienne",
+      "nameIt": "Africa subsahariana"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 230,
+    "fields": {
+      "dropdownMenuId": 9,
+      "parentFieldId": null,
+      "nameEn": "North African",
+      "nameDe": "Nordafrikanisch",
+      "nameFr": "Nord-africain(e)",
+      "nameIt": "Nord-africano/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 231,
+    "fields": {
+      "dropdownMenuId": 9,
+      "parentFieldId": null,
+      "nameEn": "Latin American",
+      "nameDe": "Lateinamerikanisch",
+      "nameFr": "Latino-américain(e)",
+      "nameIt": "Latino-americano/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 232,
+    "fields": {
+      "dropdownMenuId": 9,
+      "parentFieldId": null,
+      "nameEn": "Mixed",
+      "nameDe": "Gemischt",
+      "nameFr": "Mixte",
+      "nameIt": "Misto/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 233,
+    "fields": {
+      "dropdownMenuId": 9,
+      "parentFieldId": null,
+      "nameEn": "Other",
+      "nameDe": "Andere",
+      "nameFr": "Autre",
+      "nameIt": "Altro/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 234,
+    "fields": {
+      "dropdownMenuId": 9,
+      "parentFieldId": null,
+      "nameEn": "Prefer not to say",
+      "nameDe": "Keine Angabe",
+      "nameFr": "Ne souhaite pas répondre",
+      "nameIt": "Preferisco non rispondere"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 235,
+    "fields": {
+      "dropdownMenuId": 10,
+      "parentFieldId": null,
+      "nameEn": "Christian – Catholic",
+      "nameDe": "Christlich – Katholisch",
+      "nameFr": "Chrétien(ne) – Catholique",
+      "nameIt": "Cristiano/a – Cattolico/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 236,
+    "fields": {
+      "dropdownMenuId": 10,
+      "parentFieldId": null,
+      "nameEn": "Christian – Protestant",
+      "nameDe": "Christlich – Reformiert",
+      "nameFr": "Chrétien(ne) – Protestant(e)",
+      "nameIt": "Cristiano/a – Protestante"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 237,
+    "fields": {
+      "dropdownMenuId": 10,
+      "parentFieldId": null,
+      "nameEn": "Christian – Orthodox",
+      "nameDe": "Christlich – Orthodox",
+      "nameFr": "Chrétien(ne) – Orthodoxe",
+      "nameIt": "Cristiano/a – Ortodosso/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 238,
+    "fields": {
+      "dropdownMenuId": 10,
+      "parentFieldId": null,
+      "nameEn": "Christian – Other",
+      "nameDe": "Christlich – Andere",
+      "nameFr": "Chrétien(ne) – Autre",
+      "nameIt": "Cristiano/a – Altro"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 239,
+    "fields": {
+      "dropdownMenuId": 10,
+      "parentFieldId": null,
+      "nameEn": "Muslim – Sunni",
+      "nameDe": "Muslimisch – Sunnitisch",
+      "nameFr": "Musulman(e) – Sunnite",
+      "nameIt": "Musulmano/a – Sunnita"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 240,
+    "fields": {
+      "dropdownMenuId": 10,
+      "parentFieldId": null,
+      "nameEn": "Muslim – Shia",
+      "nameDe": "Muslimisch – Schiitisch",
+      "nameFr": "Musulman(e) – Chiite",
+      "nameIt": "Musulmano/a – Sciita"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 241,
+    "fields": {
+      "dropdownMenuId": 10,
+      "parentFieldId": null,
+      "nameEn": "Muslim – Alevi",
+      "nameDe": "Muslimisch – Alevitisch",
+      "nameFr": "Musulman(e) – Alévite",
+      "nameIt": "Musulmano/a – Alevita"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 242,
+    "fields": {
+      "dropdownMenuId": 10,
+      "parentFieldId": null,
+      "nameEn": "Muslim – Other",
+      "nameDe": "Muslimisch – Andere",
+      "nameFr": "Musulman(e) – Autre",
+      "nameIt": "Musulmano/a – Altro"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 243,
+    "fields": {
+      "dropdownMenuId": 10,
+      "parentFieldId": null,
+      "nameEn": "Jewish",
+      "nameDe": "Jüdisch",
+      "nameFr": "Juif/Juive",
+      "nameIt": "Ebraico/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 244,
+    "fields": {
+      "dropdownMenuId": 10,
+      "parentFieldId": null,
+      "nameEn": "Hindu",
+      "nameDe": "Hinduistisch",
+      "nameFr": "Hindou(e)",
+      "nameIt": "Indù"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 245,
+    "fields": {
+      "dropdownMenuId": 10,
+      "parentFieldId": null,
+      "nameEn": "Buddhist",
+      "nameDe": "Buddhistisch",
+      "nameFr": "Bouddhiste",
+      "nameIt": "Buddista"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 246,
+    "fields": {
+      "dropdownMenuId": 10,
+      "parentFieldId": null,
+      "nameEn": "Sikh",
+      "nameDe": "Sikh",
+      "nameFr": "Sikh",
+      "nameIt": "Sikh"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 247,
+    "fields": {
+      "dropdownMenuId": 10,
+      "parentFieldId": null,
+      "nameEn": "Yazidi",
+      "nameDe": "Jesidisch",
+      "nameFr": "Yézidi(e)",
+      "nameIt": "Yazida"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 248,
+    "fields": {
+      "dropdownMenuId": 10,
+      "parentFieldId": null,
+      "nameEn": "None / Atheist",
+      "nameDe": "Keine / Atheistisch",
+      "nameFr": "Aucune / Athée",
+      "nameIt": "Nessuna / Ateo/a"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 249,
+    "fields": {
+      "dropdownMenuId": 10,
+      "parentFieldId": null,
+      "nameEn": "Other",
+      "nameDe": "Andere",
+      "nameFr": "Autre",
+      "nameIt": "Altro"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 250,
+    "fields": {
+      "dropdownMenuId": 10,
+      "parentFieldId": null,
+      "nameEn": "Prefer not to say",
+      "nameDe": "Keine Angabe",
+      "nameFr": "Ne souhaite pas répondre",
+      "nameIt": "Preferisco non rispondere"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 251,
+    "fields": {
+      "dropdownMenuId": 11,
+      "parentFieldId": null,
+      "nameEn": "None observed",
+      "nameDe": "Keine festgestellt",
+      "nameFr": "Aucune observée",
+      "nameIt": "Nessuna osservata"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 252,
+    "fields": {
+      "dropdownMenuId": 11,
+      "parentFieldId": null,
+      "nameEn": "Low",
+      "nameDe": "Gering",
+      "nameFr": "Faible",
+      "nameIt": "Bassa"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 253,
+    "fields": {
+      "dropdownMenuId": 11,
+      "parentFieldId": null,
+      "nameEn": "Moderate",
+      "nameDe": "Mässig",
+      "nameFr": "Modérée",
+      "nameIt": "Moderata"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 254,
+    "fields": {
+      "dropdownMenuId": 11,
+      "parentFieldId": null,
+      "nameEn": "High",
+      "nameDe": "Hoch",
+      "nameFr": "Élevée",
+      "nameIt": "Alta"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 255,
+    "fields": {
+      "dropdownMenuId": 11,
+      "parentFieldId": null,
+      "nameEn": "Very high",
+      "nameDe": "Sehr hoch",
+      "nameFr": "Très élevée",
+      "nameIt": "Molto alta"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 256,
+    "fields": {
+      "dropdownMenuId": 11,
+      "parentFieldId": null,
+      "nameEn": "Diagnosed mental condition",
+      "nameDe": "Diagnostizierte psychische Erkrankung",
+      "nameFr": "Pathologie mentale diagnostiquée",
+      "nameIt": "Patologia mentale diagnosticata"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 257,
+    "fields": {
+      "dropdownMenuId": 11,
+      "parentFieldId": null,
+      "nameEn": "Substance abuse",
+      "nameDe": "Substanzmissbrauch",
+      "nameFr": "Toxicomanie",
+      "nameIt": "Abuso di sostanze"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 258,
+    "fields": {
+      "dropdownMenuId": 11,
+      "parentFieldId": null,
+      "nameEn": "Self-harm risk",
+      "nameDe": "Selbstverletzungsrisiko",
+      "nameFr": "Risque d'automutilation",
+      "nameIt": "Rischio di autolesionismo"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 259,
+    "fields": {
+      "dropdownMenuId": 11,
+      "parentFieldId": null,
+      "nameEn": "Suicidal ideation",
+      "nameDe": "Suizidgedanken",
+      "nameFr": "Idées suicidaires",
+      "nameIt": "Ideazione suicidaria"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 260,
+    "fields": {
+      "dropdownMenuId": 12,
+      "parentFieldId": null,
+      "nameEn": "None",
+      "nameDe": "Keine",
+      "nameFr": "Aucun",
+      "nameIt": "Nessuno"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 261,
+    "fields": {
+      "dropdownMenuId": 12,
+      "parentFieldId": null,
+      "nameEn": "Low",
+      "nameDe": "Gering",
+      "nameFr": "Faible",
+      "nameIt": "Basso"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 262,
+    "fields": {
+      "dropdownMenuId": 12,
+      "parentFieldId": null,
+      "nameEn": "Moderate",
+      "nameDe": "Mässig",
+      "nameFr": "Modéré",
+      "nameIt": "Moderato"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 263,
+    "fields": {
+      "dropdownMenuId": 12,
+      "parentFieldId": null,
+      "nameEn": "High",
+      "nameDe": "Hoch",
+      "nameFr": "Élevé",
+      "nameIt": "Alto"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 264,
+    "fields": {
+      "dropdownMenuId": 12,
+      "parentFieldId": null,
+      "nameEn": "Critical / Acute",
+      "nameDe": "Kritisch / Akut",
+      "nameFr": "Critique / Aigu",
+      "nameIt": "Critico / Acuto"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 265,
+    "fields": {
+      "dropdownMenuId": 12,
+      "parentFieldId": null,
+      "nameEn": "Threat of forced marriage",
+      "nameDe": "Drohende Zwangsheirat",
+      "nameFr": "Menace de mariage forcé",
+      "nameIt": "Minaccia di matrimonio forzato"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 266,
+    "fields": {
+      "dropdownMenuId": 12,
+      "parentFieldId": null,
+      "nameEn": "Threat of abduction abroad",
+      "nameDe": "Drohende Verschleppung ins Ausland",
+      "nameFr": "Risque d'enlèvement à l'étranger",
+      "nameIt": "Rischio di rapimento all'estero"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 267,
+    "fields": {
+      "dropdownMenuId": 12,
+      "parentFieldId": null,
+      "nameEn": "Threat of violence",
+      "nameDe": "Gewaltbedrohung",
+      "nameFr": "Menace de violence",
+      "nameIt": "Minaccia di violenza"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 268,
+    "fields": {
+      "dropdownMenuId": 12,
+      "parentFieldId": null,
+      "nameEn": "Threat of honour-based violence",
+      "nameDe": "Drohung ehrenbezogener Gewalt",
+      "nameFr": "Menace de violence liée à l'honneur",
+      "nameIt": "Minaccia di violenza d'onore"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 269,
+    "fields": {
+      "dropdownMenuId": 13,
+      "parentFieldId": null,
+      "nameEn": "Yes",
+      "nameDe": "Ja",
+      "nameFr": "Oui",
+      "nameIt": "Sì"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 270,
+    "fields": {
+      "dropdownMenuId": 13,
+      "parentFieldId": null,
+      "nameEn": "No",
+      "nameDe": "Nein",
+      "nameFr": "Non",
+      "nameIt": "No"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 271,
+    "fields": {
+      "dropdownMenuId": 13,
+      "parentFieldId": null,
+      "nameEn": "Partially",
+      "nameDe": "Teilweise",
+      "nameFr": "Partiellement",
+      "nameIt": "Parzialmente"
+    }
+  },
+  {
+    "model": "casemanagement.dropdownfield",
+    "pk": 272,
+    "fields": {
+      "dropdownMenuId": 13,
+      "parentFieldId": null,
+      "nameEn": "To be assessed",
+      "nameDe": "Noch zu beurteilen",
+      "nameFr": "À évaluer",
+      "nameIt": "Da valutare"
+    }
+  }
+]
